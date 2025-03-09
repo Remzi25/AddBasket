@@ -1,0 +1,103 @@
+body {
+  background-color: #f0ebd8;
+  min-height: 100vh;
+  padding: 2rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(13, 19, 33, 0.1);
+}
+
+.form-control {
+  border: 2px solid #748cab !important;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #3e5c76 !important;
+  box-shadow: 0 0 0 0.2rem rgba(62, 92, 118, 0.25) !important;
+}
+
+.form-select {
+  border: 2px solid #748cab !important;
+  transition: all 0.3s ease;
+}
+
+.form-select:focus {
+  border-color: #3e5c76 !important;
+  box-shadow: 0 0 0 0.2rem rgba(62, 92, 118, 0.25) !important;
+}
+
+.btn-secondary {
+  background-color: #1d2d44 !important;
+  border: none !important;
+  padding: 0.8rem 2.5rem !important;
+  font-size: 1.1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-secondary:hover {
+  background-color: #3e5c76 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(13, 19, 33, 0.2);
+}
+
+.table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(13, 19, 33, 0.1);
+}
+
+.table thead {
+  background-color: #1d2d44;
+  color: #f0ebd8;
+}
+
+.table th {
+  font-weight: 600;
+  padding: 1rem !important;
+}
+
+.table td {
+  padding: 1rem !important;
+  color: #0d1321;
+  vertical-align: middle;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(116, 140, 171, 0.1);
+}
+
+.table .btn {
+  padding: 0.4rem 1rem;
+  margin: 0 0.2rem;
+}
+
+.AddButton {
+  margin: 2rem 0;
+}
+
+/* Custom animation for the container */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 0.6s ease-out;
+}
