@@ -35,7 +35,7 @@ function App() {
   };
   return (
     <>
-    <h1 className="text-center">ADD BASKET</h1>
+    <h1 className="text-center text-white">ADD BASKET</h1>
       <Container>
         <Form>
           <InputGroup size="lg" style={{ margin: "30px" }}>
